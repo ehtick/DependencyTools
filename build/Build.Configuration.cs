@@ -28,7 +28,7 @@ sealed partial class Build
     /// <summary>
     ///     Releases changelog path.
     /// </summary>
-    readonly AbsolutePath ChangelogPath = RootDirectory / "Changelog.md";
+    readonly AbsolutePath ChangelogPath = RootDirectory / "CHANGELOG.md";
 
     /// <summary>
     ///     Add-in release version, includes version number and release stage.
